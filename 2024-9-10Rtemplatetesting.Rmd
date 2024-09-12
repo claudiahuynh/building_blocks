@@ -2,11 +2,8 @@
 title: "Simple document"
 date: 09-10-2024
 author: Claudia Huynh
-output: 
-  html_document:
-   toc: true
-   toc_float: true
-   code_floating: hide
+output: github_document
+
 ---
 ```{r library_chunk, echo = FALSE, message = FALSE}
 library (tidyverse)
